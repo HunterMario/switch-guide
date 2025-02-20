@@ -45,6 +45,7 @@
         "homebrew/sys-con": "sys-con",
         "homebrew/sysdvr": "SysDVR",
         "homebrew/tesla-menu": "Tesla Menu",
+        "homebrew/sys-tweak" : "sys-tweak",
         "multiple-options": "Multiple Options",
         "user_guide/all/cfw_environment": "CFW on sysMMC vs. CFW on emuMMC",
         "user_guide/all/launching_cfw": "Launching CFW",
