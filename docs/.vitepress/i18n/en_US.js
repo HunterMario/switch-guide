@@ -64,7 +64,8 @@ const themeConfig = {
 					{ text: localeData.pages["homebrew/sys-botbase"], link: `/homebrew/sys-botbase` },
 					{ text: localeData.pages["homebrew/sysdvr"], link: `/homebrew/sysdvr` },
 					{ text: localeData.pages["homebrew/sys-clk"], link: `/homebrew/sys-clk` },
-					{ text: localeData.pages["homebrew/ldn_mitm"], link: `/homebrew/ldn_mitm` }
+					{ text: localeData.pages["homebrew/ldn_mitm"], link: `/homebrew/ldn_mitm` },
+					{ text: localeData.pages["homebrew/sys-tweak"], link: `/homebrew/sys-tweak`}
 				]
 			},
 			sidebar_common
