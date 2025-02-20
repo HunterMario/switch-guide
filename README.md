@@ -17,9 +17,6 @@ git clone https://github.com/nh-server/switch-guide.git --recurse-submodules
 cd switch-guide
 ```
 
-> [!NOTE]
-> You must use `--recurse-modules` or you will hit an error like `Failed to resolve import "@theme/index" from "node_modules/vitepress/dist/client/app/index.js?v=19e6628c"` when running. If you've already cloned, you can initialize the submodules manually: `git submodule update --init --recursive`.
-
 Then simply run the following commands:
 
 ```bash
