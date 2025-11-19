@@ -72,22 +72,15 @@ The Switch comes with a lot of telemetry, and has been called a "telemetry monst
 As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them.
 Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
 
-To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch.
-Additionally if you live in the EU you can set the "do not share" option on [Nintendo's website](https://accounts.nintendo.com/setting) to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.
-
-Nintendo still receives a lot of information, even with those options disabled.
-We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect.
-They have also shown to expand their telemetry options with every other firmware update.
-
 ::: warning
 
 **Currently all bans have been for very obvious and intrusive actions, specifically:**
-- Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
-- People pirating games and using them online
-- People changing their profile pictures to custom pictures
-- People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)
-- People cheating online in general (Modifying Cart stats in MK8)
-- People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
+- Piracy in any way, shape, or form
+- Installing NSP files
+- Cheating online
+- Using save editors to unlock unavailable content and using it online
+- Changing the user icon through homebrew
+- Using console unique data to poke and reverse-engineer Nintendo's server responses
 
 :::
 
@@ -96,13 +89,7 @@ Atmosphère stops some, but ***not all*** of Nintendo's telemetry, and prevents 
 Atmosphère is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. Atmosphère now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the microSD card instead.
 This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.
 
-For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1.0. You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.
-
-We do not recommend the use of ReiNX or SX OS for many reasons, primary among them that they use lots of assets from Atmosphère and offer no real benefit that Atmosphère does not offer anyway.
-We also do not recommend Kosmos, as its large amount of extras on top of regular Atmosphère make it difficult to troubleshoot strange issues.
-All of these alternative CFWs also tend to use non-conventional setups which can cause issues that make it difficult to troubleshoot, which is another reason we prefer using Atmosphère.
-Additionally, it is advised to use 90DNS which blocks connections to any Nintendo servers. If you use an emuNAND for CFW and keep your sysNAND clean for playing online, you should use 90DNS on your emuNAND.
-*Note: Keeping your emuNAND "dirty" and your sysNAND "clean" pertains primarily to those using the RCM exploit. Users employing Nereba or Caffeine will do the opposite.*
+It is advised to use both dns.mitm and 90DNS on emuMMC to block connections to any Nintendo servers. If you use an emuMMC for potentially bannable actions and keep your sysMMC clean for playing online, you should use at minimum use dns.mitm on your emuNAND.
 
 ## What formats can homebrew come in
 
