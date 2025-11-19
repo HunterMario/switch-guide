@@ -156,3 +156,7 @@ This is an issue primarily affecting macOS users, but may occur on other devices
 1. Press `Close` in the top right corner.
 1. Press `Home` in the top menu bar to get back from where you started.
 1. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw) to launch Atmosphère.
+
+## Some Homebrew are giving the message, "This application does not support the current ABI. Expect compatibility issues." How do I fix this?
+
+This is a sign that the Homebrew being used has not been updated since version 21.0.0. To fix this, either update the Homebrew to the latest version or find an alternative.
